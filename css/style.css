@@ -25,11 +25,28 @@ h2 {
     margin: auto;
     border: 3px solid black;
     display: grid;
-    grid-template-columns: 150px 150px 150px;
+    grid-template-columns: 25% 25% 25%;
     grid-gap: 10px;
     background-color: #91f321;
     background-image: url("../images/background.jpg");
     border-radius: 5px;
+    justify-content: space-around;
+}
+
+.item2 {
+    grid-column-start: 3;
+}
+
+.item3 {
+    grid-column-start: 2;
+}
+
+.item4 {
+    grid-column-start: 1;
+}
+
+.item5 {
+    grid-column-start: 3;
 }
 
 
